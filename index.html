@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <title>首页 - 蒸呀吃呀！- 男女适合、老少皆宜，城市中心、农村乡镇、车站码头、街头巷尾均可经营</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="shortcut icon" href="images/title_03.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <!-- <script src="js/index.js"></script> -->
+    <script>
+        $(function () {
+            var swiper = new Swiper('.swiper-container1', {
+                spaceBetween: 30,
+                effect: 'fade',
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                autoplay: true,
+            });
+
+            if (screen.width < 768) {
+                var galleryThumbs = new Swiper('.gallery-thumbs', {
+                    spaceBetween: 10,
+                    slidesPerView: 3,
+                    freeMode: true,
+                    watchSlidesVisibility: true,
+                    watchSlidesProgress: true,
+                });
+                var galleryTop = new Swiper('.gallery-top', {
+
+                    spaceBetween: 10,
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    thumbs: {
+                        swiper: galleryThumbs,
+                    },
+                    observer: true,
+                    observeParents: true,
+                });
+            } else if (screen.width > 768) {
+                var galleryThumbs = new Swiper('.gallery-thumbs', {
+                    direction: 'vertical',
+                    spaceBetween: 10,
+                    slidesPerView: 3,
+                    freeMode: true,
+                    watchSlidesVisibility: true,
+                    watchSlidesProgress: true,
+                });
+                var galleryTop = new Swiper('.gallery-top', {
+                    direction: 'vertical',
+                    spaceBetween: 10,
+                    slidesPerView: 1,
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    thumbs: {
+                        swiper: galleryThumbs
+                    }
+                });
+            }
+            $(".swiper-button-next").click(function (event) {
+                return false;
+            });
+        })
+    </script>
+    <style>
+        @media (max-width: 1920px) and (min-width: 1024px) {
+            .power_box {
+                position: relative;
+                height: 615px;
+            }
+
+
+            .swiper-container {
+                width: 100%;
+                height: 300px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .swiper-slide {
+                background-size: cover;
+                background-position: center;
+            }
+
+            .gallery-top {
+                height: 615px;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .gallery-thumbs {
+                width: 100%;
+                height: 615px;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .gallery-top .swiper-wrapper {
+                width: 70.5%;
+                float: right;
+            }
+
+            .gallery-thumbs .swiper-wrapper {
+                width: 27%;
+                float: left;
+            }
+
+            .gallery-thumbs .swiper-slide {
+                width: 100%;
+                height: 100%;
+                opacity: 0.4;
+            }
+
+            .gallery-thumbs .swiper-slide-thumb-active {
+                opacity: 1;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 头部开始 -->
+        <script src="js/header.js"></script>
+        <!-- 头部结束 -->
+        <!-- banner开始 -->
+        <div class="banner">
+            <!-- Swiper开始 -->
+            <div class="swiper-container1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(images/banner01_01.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(images/banner02_01.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(images/banner03_01.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(images/banner04_01.jpg)"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination-white"></div>
+            </div>
+            <!-- swiper结束 -->
+            <div class="banner_bg">
+                <div class="banner_txt">
+                    蒸呀吃呀-小碗蒸菜隶属于河北臻谷餐饮集团。2016年集团推出觅邑农，
+                    蒸菜品牌，并开始直营验证。2018年集团在直营品牌验证成熟基础上投
+                    巨资建立了完善的供应链体系2019年集团携手国内顶级品牌策略团队打
+                    造了蒸呀吃呀-小碗蒸菜品牌！
+                </div>
+            </div>
+        </div>
+        <!-- banner结束 -->
+        <!-- 品牌介绍开始 -->
+        <div class="introduce">
+            <div class="container">
+                <div class="introduce_left clearfix">
+                    <div class="introduce_title">
+                        <h1>品牌介绍</h1>
+                        <p class="introduce_title_p">BRAND INTRODUCTION</p>
+                        <p class="introduce_title_line"></p>
+                    </div>
+                    <div class="introduce_txt">
+                        “蒸呀！吃呀！”是以“蒸”为主的绿色、营养、健康、美味的快餐品牌。“蒸”是最健康的传统烹饪方式，其特点是
+                        保持了菜肴的原形、原汁、原味，比起炒、炸、煎等烹饪方法，蒸出来的菜肴所含油脂少，且能在很大程度上保存菜
+                        的各种营养素，更符合健康饮食的要求。“蒸菜”的历史源远流长，早在新石器时代晚期，我国的先民就在鼎、鬲等
+                        陶器的基础上创造出了甑——就是在鼎或鬲器上造个蒸食的笼屉，上再加盖，共同组合成了世界上最早的蒸锅。
+                    </div>
+                    <a class="more fr" href="culture.html">MORE></a>
+                    <div class="introduce_log">
+                        <img src="images/log.png" alt="">
+                    </div>
+                </div>
+                <div class="introduce_right">
+                    <img class="img-responsive" src="images/index_pic_03.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- 品牌介绍结束 -->
+        <!-- 公司实力开始 -->
+        <div class="power">
+            <div class="container">
+                <div class="power_title">
+                    <h1>公司实力</h1>
+                    <p class="introduce_title_p">COMPANY STRENGTH</p>
+                    <p class="introduce_title_line power_title_line"></p>
+                </div>
+                <div class="power_box clearfix">
+                    <!-- Swiper -->
+                    <div class="swiper-container2 gallery-thumbs">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(images/index_pic_07.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(images/index_pic_13.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(images/index_pic_16.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(images/index_pic_13.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(images/index_pic_16.jpg)"></div>
+                            </div>
+                        </div>
+                        <!-- swiper结束 -->
+                    <!-- Swiper -->
+                    <div class="swiper-container2 gallery-top">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image:url(images/index_pic_07.jpg)">
+                                <div class="power_smallbox">
+                                    <h1>独立的研发团队</h1>
+                                    <div class="power_smallbox_txt">
+                                        河北臻谷餐饮管理有限公司有着独立的菜品研发团队，是具备年轻化、专业性、高素质的建设性团队。研发团队
+                                        能独立研发新产品或改良产品的配方和公益流程，制定标准作业书，提高产品质量，降低运营成本。团队人员定
+                                        期外出学习，不断提高业务水平，本着“传承不守旧河北臻谷餐饮管理有限公司有着独立的菜品研发团队，是具
+                                        备年轻化、专业性、高素质的建设性团队。研发团队能独立研发新产品或改良产品的配方和公益流程，制定标准
+                                        作业书，提高产品质量，降低运营成本。团队人员定期外出学习，不断提高业务水平，本着“传承不守旧，创新
+                                        不忘本”的原则，将菜品研发达到极致，推陈出新，为公司快速发展注入企业灵魂，彰显公司品牌文化。
+                                    </div>
+                                    <a class="power_more" href="about_yftd.html">MORE></a>
+                                    <div class="power_log introduce_log">
+                                        <img src="images/log_03.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/index_pic_13.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(images/index_pic_16.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(images/index_pic_13.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(images/index_pic_16.jpg)"></div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                    <!-- swiper结束 -->
+                    
+                </div>
+            </div>
+            <!-- 公司实力结束 -->
+            <!-- 新闻动态开始 -->
+            <div class="news">
+                <div class="container">
+                    <div class="power_title">
+                        <h1>新闻动态</h1>
+                        <p class="introduce_title_p">EVENT NEWS</p>
+                        <p class="introduce_title_line power_title_line"></p>
+                    </div>
+                    <a class="more fr" href="news.html">MORE></a>
+                    <div class="news_box">
+                        <div class="news_smallbox">
+                            <div class="news_smallbox_pic">
+                                <img class="img-responsive" src="images/index_pic_20.jpg" alt="">
+                            </div>
+                            <div class="news_smallbox_txt">
+                                <h5><a href="news_xq.html">“蒸呀！吃呀！”联手迪韬做品牌升级</a></h5>
+                                <time>2019-07-16</time>
+                                <p>“蒸呀！吃呀！”联手迪韬做品牌升级“蒸呀！吃呀！”
+                                    联手迪韬做品牌升级“蒸呀！吃呀！”联手迪韬做品牌
+                                    升级“蒸呀！吃呀！”</p>
+                            </div>
+                        </div>
+                        <div class="news_smallbox">
+                            <div class="news_smallbox_pic">
+                                <img class="img-responsive" src="images/index_pic_20.jpg" alt="">
+                            </div>
+                            <div class="news_smallbox_txt">
+                                <h5><a href="news_xq.html">“蒸呀！吃呀！”联手迪韬做品牌升级</a></h5>
+                                <time>2019-07-16</time>
+                                <p>“蒸呀！吃呀！”联手迪韬做品牌升级“蒸呀！吃呀！”
+                                    联手迪韬做品牌升级“蒸呀！吃呀！”联手迪韬做品牌
+                                    升级“蒸呀！吃呀！”</p>
+                            </div>
+                        </div>
+                        <div class="news_smallbox">
+                            <div class="news_smallbox_pic">
+                                <img class="img-responsive" src="images/index_pic_20.jpg" alt="">
+                            </div>
+                            <div class="news_smallbox_txt">
+                                <h5><a href="news_xq.html">“蒸呀！吃呀！”联手迪韬做品牌升级</a></h5>
+                                <time>2019-07-16</time>
+                                <p>“蒸呀！吃呀！”联手迪韬做品牌升级“蒸呀！吃呀！”
+                                    联手迪韬做品牌升级“蒸呀！吃呀！”联手迪韬做品牌
+                                    升级“蒸呀！吃呀！”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 新闻动态结束 -->
+            <!-- 特色菜肴开始 -->
+            <div class="specialty">
+                <div class="container">
+                    <div class="power_title">
+                        <h1>特色菜肴</h1>
+                        <p class="introduce_title_p">SPECIALITY</p>
+                        <p class="introduce_title_line power_title_line"></p>
+                    </div>
+                    <div class="specialty_box">
+                        <div class="specialty_box_title clearfix">
+                            <ul>
+                                <li class="specialty_active">金牌套餐 </li>
+                                <li>健康套餐 </li>
+                                <li>聚会家庭套餐 </li>
+                                <li>爆品菜 </li>
+                                <li>特色菜 </li>
+                            </ul>
+                            <a class="more fr" href="specialty.html">MORE></a>
+                        </div>
+
+                        <div class="specialty_box_content clearfix">
+                            <div class="specialty_pic">
+                                <img class="img-responsive" src="images/index_pic_24.jpg" alt="">
+                                <div class="specialty_hidden">
+                                    <p>无刺鱼套餐 </p>
+                                    <p>柠檬鱼+时蔬+米饭</p>
+                                </div>
+                            </div>
+                            <div class="specialty_pic">
+                                <img class="img-responsive" src="images/index_pic_24.jpg" alt="">
+                                <div class="specialty_hidden">
+                                    <p>无刺鱼套餐 </p>
+                                    <p>柠檬鱼+时蔬+米饭</p>
+                                </div>
+                            </div>
+                            <div class="specialty_pic">
+                                <img class="img-responsive" src="images/index_pic_24.jpg" alt="">
+                                <div class="specialty_hidden">
+                                    <p>无刺鱼套餐 </p>
+                                    <p>柠檬鱼+时蔬+米饭</p>
+                                </div>
+                            </div>
+                            <div class="specialty_pic">
+                                <img class="img-responsive" src="images/index_pic_24.jpg" alt="">
+                                <div class="specialty_hidden">
+                                    <p>无刺鱼套餐 </p>
+                                    <p>柠檬鱼+时蔬+米饭</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 特色菜肴结束 -->
+            <!-- 高朋满座开始 -->
+            <div class="friends">
+                <div class="friends_bg">
+                    <div class="container">
+                        <div class="friends_title power_title">
+                            <h1>高朋满座</h1>
+                            <p class="introduce_title_p">JOIN THE ADVANTAGE</p>
+                            <p class="introduce_title_line power_title_line"></p>
+                        </div>
+                        <div class="friends_box clearfix">
+                            <div class="friends_box_left clearfix">
+                                <div class="friends_box_pic1 fl">
+                                    <img src="images/gao_03.png" alt="">
+                                </div>
+                                <div class="friends_box_pic2 fr">
+                                    <div class="friends_box_smallpic1">
+                                        <img class="img-responsive" src="images/gao01_03.png" alt="">
+                                    </div>
+                                    <div class="friends_box_smallpic">
+                                        <img class="img-responsive" src="images/gao01_03.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="friends_box_right clearfix">
+                                <div class="friends_box_smallpic1 friends_box_smallpic2">
+                                    <img class="img-responsive" src="images/gao02_03.png" alt="">
+                                </div>
+                                <div class="friends_box_smallpic friends_box_smallpic3">
+                                    <img class="img-responsive" src="images/gao02_03.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 高朋满座结束 -->
+            <!-- 加盟优势开始 -->
+            <div class="join">
+                <div class="container">
+                    <div class="friends_title power_title">
+                        <h1>加盟优势</h1>
+                        <p class="introduce_title_p">JOIN THE ADVANTAGE</p>
+                        <p class="introduce_title_line power_title_line"></p>
+                    </div>
+                </div>
+                <div class="join_box">
+                    <div class="container">
+                        <div class="join_box_content">
+                            <div class="join_num join_num01">
+                                <div>
+                                    <h1>统一模式，整店输出</h1>
+                                    <p>统一原料、统一标准、统一口味、统一形 象、统一管理。</p>
+                                </div>
+                            </div>
+                            <div class="join_num join_num03">
+                                <div>
+                                    <h1>小本投资，高额回报</h1>
+                                    <p>总部以先进的经验理念，为加盟商提供全
+                                        套运营模式，投资回收期短，回报较高。</p>
+                                </div>
+                            </div>
+                            <div class="join_num join_num02">
+                                <div>
+                                    <h1>适应广泛，选址容易</h1>
+                                    <p>男女适合、老少皆宜，城市中心、农村乡
+                                        镇、车站码头、街头巷尾均可经营。</p>
+                                </div>
+                            </div>
+                            <div class="join_num join_num04">
+                                <div>
+                                    <h1>绿色农产品生产基地</h1>
+                                    <p>公司在石家庄郊区组建了“田园蔬菜合作
+                                        社”，聘请专家现场指导，统一供种、统
+                                        一栽培养殖技术.</p>
+                                </div>
+                            </div>
+                            <div class="join_box_center">
+                                <img src="images/zhao_pic_03.png" alt="">
+                                <div class="join_line">
+                                    <img src="images/zha_03.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 加盟优势结束 -->
+            <!-- 底部开始 -->
+            <script src="js/footer.js"></script>
+            <!-- 底部结束 -->
+        </div>
+</body>
+
+</html>

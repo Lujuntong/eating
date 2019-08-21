@@ -1,0 +1,64 @@
+.recruit{
+    width: 100%;
+    margin: 56px auto 130px;
+}
+@media (min-width:1024px) and (max-width:1920px){
+    .recruit_smallbox{
+        width: 32%;
+        height: 210px;
+        margin-left: 10px;
+        float: left;
+        background: #f6f6f6;
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+@media (min-width:786px) and (max-width:1024px){
+    .recruit_smallbox{
+        width: 48%;
+        height: 210px;
+        margin-left: 10px;
+        float: left;
+        background: #f6f6f6;
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .recruit_smallbox{
+        width: 95%;
+        height: 210px;
+        margin-left: 10px;
+        float: none;
+        background: #f6f6f6;
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+.recruit_smallbox h1{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+time{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.recruit_p{
+    width: 70%;
+    margin: 0 auto 20px;
+}
+.recruit_p1{
+    width: 88%;
+    margin: 0 auto 20px;
+}
+.recruit_smallbox:hover{
+    color: #fff;
+    background: #a3262c;
+}

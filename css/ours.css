@@ -1,0 +1,227 @@
+/* 加盟流程开始 */
+.procedure_box{
+    width: 100%;
+}
+.procedure_box img{
+    width: 100%;
+}
+.procedure_box1{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.procedure_box1 img{
+    width: 100%;
+}
+@media (min-width:1024px) and (max-width:1920px){
+.procedure_box1{
+    display: none;
+}
+.procedure_box{
+    display: block;
+}
+.procedure{
+    margin: 105px auto 50px;
+}
+.ours_log {
+    width: 22%;
+    margin: 105px auto 0px;
+}
+}
+@media (min-width:786px) and (max-width:1024px){
+    .procedure_box1{
+        display: none;
+    }
+    .procedure_box{
+        display: block;
+    }
+    .procedure{
+        margin: 165px auto 150px;
+    }
+    .ours_log{
+        width: 45%;
+        margin: 50px auto 0px;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .procedure_box1{
+        display: block;
+    }
+    .procedure_box{
+        display: none;
+    }
+    .procedure {
+        margin: 55px auto 60px;
+    }
+    .ours_log{
+        width: 70%;
+        margin: 50px auto 0px;
+    }
+}
+
+.ours_log img{
+    width: 100%;
+}
+/* 加盟流程结束 */
+/* 加盟优势开始 */
+.advantage{
+    width: 100%;
+    margin: 58px auto 35px;
+}
+.advantage_smallbox{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.num_01_title{
+    border-bottom: 1px dashed #6c6c6c;
+}
+.one{
+    width: 73px;
+    height: 67px;
+    background: #a3262c;
+    color: #fff;
+    font-size: 33px;
+    line-height: 67px;
+    text-align: center;
+    float: left;
+}
+.one_txt{
+    float: left;
+    margin-left: 20px;
+}
+.one_txt h1{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.num_01 p{
+    color: #5f5f5f;
+    line-height: 24px;
+    margin: 10px 0;
+}
+@media (min-width:1024px) and (max-width:1920px){
+    .advantage_left{
+        width: 50%;
+        float: left;
+    }
+    .advantage_right{
+        width: 49%;
+        float: right;
+    }
+    .advantage_right img{
+        width: 90%;
+        margin: 80px auto 0;
+        display: block;
+    }
+}
+@media (min-width:786px) and (max-width:1024px){
+    .advantage_left{
+        width: 50%;
+        float: left;
+    }
+    .advantage_right{
+        width: 49%;
+        float: right;
+    }
+    .advantage_right img{
+        width: 90%;
+        margin: 80px auto 0;
+        display: block;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .advantage_left{
+        width: 100%;
+        float: none;
+    }
+    .advantage_right{
+        width: 100%;
+        float: none;
+    }
+    .advantage_right img{
+        width: 90%;
+        margin: 30px auto 0;
+        display: block;
+    }
+}
+/* 加盟优势结束 */
+/* 加盟条件开始 */
+.condition_box1 img{
+    width: 100%;
+}
+@media (min-width:1200px) and (max-width:1920px){
+    .condition{
+        width: 100%;
+        margin: 80px auto 40px;
+    }
+    .condition_box{
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+    .condition_box img{
+        width: 100%;
+    }
+    .condition_box_txt ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .condition_box_txt ul li{
+        width: 25%;
+        margin: 0 4px;
+    }
+    em{
+        text-align: center;
+        display: block;
+        color: #a3262c;
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .A{
+        padding-top: 110px;
+    }
+    .B{
+        padding-top: 60px;
+    }
+    .C{
+        padding-top: 70px;
+    }
+    .D{
+        padding-top: 30px;
+    }
+    .F{
+        padding-top: 100px;
+    }
+    .condition_box1{
+        display: none;
+    }
+}
+@media (min-width:786px) and (max-width:1200px){
+    .condition{
+        width: 100%;
+        margin: 50px auto 40px;
+    }
+    .condition_box{
+        width: 100%;
+        position: relative;
+        display: none;
+        overflow: hidden;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .condition{
+        width: 100%;
+        margin: 10px auto 40px;
+    }
+    .condition_box{
+        width: 100%;
+        position: relative;
+        display: none;
+        overflow: hidden;
+    }  
+}
+/* 加盟条件结束 */

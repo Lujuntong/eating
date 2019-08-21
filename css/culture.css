@@ -1,0 +1,45 @@
+/* 品牌文化开始 */
+.culture{
+    margin: 54px auto 0;
+}
+@media (max-width:1920px) and (min-width:1024px){
+    .culture_title{
+        width: 45%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:1024px) and (min-width:786px){
+    .culture_title{
+        width: 45%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:786px) and (min-width:0px){
+    .culture_title{
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+.culture_title img{
+    width: 100%;
+}
+.culture_box{
+    margin: 38px 0 55px;
+    width: 100%;
+    background: #a01e24;
+    padding: 20px 0;
+}
+.culture_smallbox{
+    width: 90%;
+    margin: 20px auto;
+    color: #fff;
+    line-height: 32px;
+}
+.culture_log{
+    width: 233px;
+    margin: 0 auto 42px;
+}
+.culture_log img{
+    width: 100%;
+}
+/* 品牌文化结束 */

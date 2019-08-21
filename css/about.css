@@ -1,0 +1,653 @@
+/* banner开始 */
+@media (min-width:1024px) and (max-width:1920px){
+    .banner{
+        width: 100%;
+        height: 494px;
+        margin-top: 100px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .banner_title{
+        color: #fff;
+        text-align: center;
+        margin-top: 150px;
+    }
+    .banner_list ul li{
+        width: 145px;
+        height: 53px;
+        background: #fff;
+        text-align: center;
+        line-height: 53px;
+        margin: 0 10px;
+    }
+    .banner_list ul li a{
+        font-size: 16px;
+        color: #231815;
+    }
+    .banner_list{
+        width: 100%;
+        margin-top: 55px;
+    }
+    .banner_title h1,.banner_title1 h1{
+        color: #fff;
+        font-size: 39px;
+        text-shadow: -2px -2px 1px rgb(35,24,21);
+        font-weight: 600;
+    }
+    .banner_title p{
+        text-shadow: -2px -2px 1px rgb(35,24,21);
+        font-weight: 600;
+    }
+}
+@media (min-width:786px) and (max-width:1024px){
+    .banner{
+        width: 100%;
+        height: 494px;
+        margin-top: 100px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .banner_title{
+        color: #fff;
+        text-align: center;
+        margin-top: 150px;
+    }
+    .banner_list ul li{
+        width: 145px;
+        height: 53px;
+        background: #fff;
+        text-align: center;
+        line-height: 53px;
+        margin: 0 10px;
+    }
+    .banner_list ul li a{
+        font-size: 16px;
+        color: #231815;
+    }
+    .banner_list{
+        width: 100%;
+        margin-top: 55px;
+    }
+    .banner_title h1,.banner_title1 h1{
+        color: #fff;
+        font-size: 39px;
+        text-shadow: -2px -2px 1px rgb(35,24,21);
+        font-weight: 600;
+    
+    }
+    .banner_title p{
+        text-shadow: -2px -2px 1px rgb(35,24,21);
+        font-weight: 600;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .banner{
+        width: 100%;
+        height: 190px;
+        margin-top: 100px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 200%;
+    }
+    .banner_title{
+        color: #fff;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .banner_list ul li{
+        width: auto;
+        height: auto;
+        background: #fff;
+        text-align: center;
+        /* line-height: 53px; */
+        margin: 0 2px;
+        padding: 5px 4px;
+    }
+    .banner_list ul li a{
+        font-size: 12px;
+        color: #231815;
+    }
+    .banner_list{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .banner_title h1,.banner_title1 h1{
+        color: #fff;
+        font-size: 34px;
+        text-shadow: -2px -2px 1px rgb(35,24,21);
+        font-weight: 600;
+    
+    }
+    .banner_title p{
+        text-shadow: -2px -2px 1px rgb(35,24,21);
+        font-weight: 600;
+    }
+}
+.banner_list ul{
+    display: flex;
+    justify-content: center;
+}
+.banner_list ul li a:hover{
+    color: #fff;
+}
+.banner_list ul li:hover{
+    background: #a01e24;
+}
+/* banner结束 */
+/* 公司介绍开始 */
+@media (min-width:1024px) and (max-width:1920px){
+    .introduce{
+        width:100%;
+        height: 606px;
+        background: url(../images/about_bg01_02.jpg) no-repeat center;
+    }
+    .introduce_box{
+        width: 50%;
+        float: left;
+    }
+    .introduce_box h1{
+        font-size: 28px;
+        color: #a01e24;
+        margin: 205px 0 35px;
+    }
+    .introduce_box p{
+        line-height: 32px;
+        margin-bottom: 38px;
+    }
+}
+@media (min-width:786px) and (max-width:1024px){
+    .introduce{
+        width:100%;
+        height: 606px;
+        background: url(../images/about_bg01_02.jpg) no-repeat center;
+    }
+    .introduce_box{
+        width: 50%;
+        float: left;
+    }
+    .introduce_box h1{
+        font-size: 28px;
+        color: #a01e24;
+        margin: 205px 0 35px;
+    }
+    .introduce_box p{
+        line-height: 32px;
+        margin-bottom: 38px;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .introduce{
+        width:100%;
+        height: 195px;
+        background: url(../images/about_bg01_02.jpg) no-repeat center;
+        background-size: 160%;
+    }
+    .introduce_box{
+        width: 100%;
+        float: left;
+    }
+    .introduce_box h1{
+        font-size: 22px;
+        color: #a01e24;
+        margin: 40px 0 5px;
+    }
+    .introduce_box p{
+        line-height: 18px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .introduce_box .more_line1{
+        width: 60px;
+        font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    float: right;
+    }
+}
+
+/* 公司介绍结束 */
+/* 团队建设开始 */
+@media (min-width:1024px) and (max-width:1920px){
+    .team{
+        width: 100%;
+        height: 563px;
+        background: url(../images/about_pic_02.jpg) no-repeat center;
+    }
+    .team_box{
+        width: 57%;
+        margin: 45px auto 50px;
+        line-height: 32px;
+    }
+    .team_title{
+        text-align: center;
+        color: #4b4b4a;
+        margin-top: 74px;
+    }
+    .team_more_line{
+        margin: auto;
+    }
+    .team_log{
+        width: 233px;
+        height: 68px;
+        margin: 50px auto 0;
+    }
+}
+@media (min-width:786px) and (max-width:1024px){
+    .team{
+        width: 100%;
+        height: 563px;
+        background: url(../images/about_pic_02.jpg) no-repeat center;
+    }
+    .team_box{
+        width: 57%;
+        margin: 45px auto 50px;
+        line-height: 32px;
+    }
+    .team_title{
+        text-align: center;
+        color: #4b4b4a;
+        margin-top: 74px;
+    }
+    .team_more_line{
+        margin: auto;
+    }
+    .team_log{
+        width: 233px;
+        height: 68px;
+        margin: 50px auto 0;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .team {
+        width: 100%;
+        height: 240px;
+        background: url(../images/about_pic_02.jpg) no-repeat center;
+        background-size: 200%;
+    }
+    .team_box{
+        width: 90%;
+        margin: 5px auto 10px;
+        line-height: 18px;
+        font-size: 12px;
+        overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    }
+    .team_title{
+        text-align: center;
+        color: #4b4b4a;
+        margin-top: 24px;
+    }
+    .team .team_more_line{
+        margin:20px auto 0;
+        float: right;
+        width: 60px;
+        font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    }
+    .team_log{
+        width: 162px;
+        height: auto;
+        margin: 0px auto 0;
+        float: left;
+    }
+    .team .power_title h1 {
+        font-size: 22px;
+        color: #4b4b4a;
+        font-weight: 600;
+    }
+}
+.team_log img{
+    width: 100%;
+}
+.team_title_line{
+    margin: 0 auto;
+}
+.team .team_title h1{
+    font-weight: 600;
+}
+.team_title p{
+    color: #555454;
+}
+/* 团队建设结束 */
+/* 研发团队开始 */
+@media (min-width:1024px) and (max-width:1920px){
+    .team1_box{
+        width: 100%;
+        margin: 50px auto 80px;
+    }
+    .team1_pic{
+        width: 45%;
+        float: left;
+    }
+    .team1_txt{
+        width: 50%;
+        float: right;
+    }
+    .team1_txt p{
+        line-height: 32px;
+        margin: 50px 0;
+    }
+}
+@media (min-width:786px) and (max-width:1024px){
+    .team1_box{
+        width: 100%;
+        margin: 50px auto 80px;
+    }
+    .team1_pic{
+        width: 45%;
+        float: left;
+    }
+    .team1_txt{
+        width: 50%;
+        float: right;
+    }
+    .team1_txt p{
+        line-height: 32px;
+        margin: 50px 0;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .team1_box{
+        width: 100%;
+        margin: 20px auto 40px;
+    }
+    .team1_pic{
+        width: 100%;
+        float: none;
+    }
+    .team1_txt{
+        width: 100%;
+        float: none;
+    }
+    .team1_txt p{
+        line-height: 24px;
+        margin: 20px 0;
+    }
+    .team1 .team_title h1{
+        font-size: 22px;
+    }
+    .team1 .team_more_line{
+        margin: auto;
+        width: 60px;
+        font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    }
+}
+.team1{
+    width: 100%;
+}
+.team1_pic img{
+    width: 100%;
+}
+
+
+/* 研发团队结束 */
+/* 烹饪方式开始 */
+@media (min-width:1024px) and (max-width:1920px){
+    .food{
+        width: 100%;
+        height: 665q;
+        background: url(../images/about_pic_08.jpg) no-repeat center;
+    }
+    .food_left{
+        width: 53%;
+        float: left;
+    }
+    .food_right{
+        width: 43%;
+        float: right;
+    }
+    .food_left1{
+        margin-top: 55px;
+    }
+    .food_left2{
+        margin-top: 90px;
+    }
+    .food_left1,.food_left2{
+        width: 49.5%;
+    }
+    .food_txt p{
+        color: #fff;
+        line-height: 32px;
+        margin: 46px 0 52px;
+    }
+}
+@media (min-width:786px) and (max-width:1024px){
+    .food{
+        width: 100%;
+        height: 665q;
+        background: url(../images/about_pic_08.jpg) no-repeat center;
+    }
+    .food_left{
+        width: 53%;
+        float: left;
+    }
+    .food_right{
+        width: 43%;
+        float: right;
+    }
+    .food_left1{
+        margin-top: 55px;
+    }
+    .food_left2{
+        margin-top: 90px;
+    }
+    .food_left1,.food_left2{
+        width: 49.5%;
+    }
+    .food_txt p{
+        color: #fff;
+        line-height: 32px;
+        margin: 46px 0 52px;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .food{
+        width: 100%;
+        height: 265px;
+        background: url(../images/about_pic_08.jpg) no-repeat center;
+    }
+    .food_left{
+        width: 100%;
+        float: none;
+    }
+    .food_right{
+        width: 100%;
+        float: none;
+    }
+    .food_left1{
+        margin-top: 20px;
+    }
+    .food_left2{
+        margin-top: 20px;
+    }
+    .food_left1,.food_left2{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .food_right .food_title h1{
+        font-size: 22px;
+    }
+    .food_txt p{
+        color: #fff;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 10px 0 12px;
+    }
+    .food_txt .team_more_line{
+        margin: auto;
+        width: 60px;
+        float: right;
+        font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -120px;
+    }
+}
+.food_left2_pic{
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid #fff;
+}
+.food_left2_pic img{
+    width: 100%;
+}
+.food_right .food_title h1,.food_right .food_title p{
+    color: #fff;
+}
+.food_txt .more_line{
+    color: #fff;
+    border: 1px solid #fff;
+}
+.food_right{
+    margin-top: 105px;
+}
+/* 烹饪方式结束 */
+/* 高端中央厨房开始 */
+@media (min-width:1024px) and (max-width:1920px){
+    .cookie_smallbox{
+        width: 31.5%;
+        float: left;
+        margin-left: 25px;
+    }
+    .cookie_smallbox p{
+        line-height: 32px;
+        margin-bottom: 50px;
+    }
+    .cookie_box{
+        margin: 45px auto 25px;
+    }
+}
+@media (min-width:786px) and (max-width:1024px){
+    .cookie_smallbox{
+        width: 31.5%;
+        float: left;
+        margin-left: 25px;
+    }
+    .cookie_smallbox p{
+        line-height: 32px;
+        margin-bottom: 50px;
+    }
+    .cookie_box{
+        margin: 45px auto 25px;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .cookie_smallbox{
+        width: 100%;
+        float: none;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .cookie_smallbox p{
+        line-height: 24px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .cookie_box .team_more_line{
+        margin: auto;
+    width: 60px;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    }
+    .cookie_box{
+        margin: 15px auto 15px;
+    }
+}
+.cookie{
+    width: 100%;
+}
+
+.cookie_box1{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.cookie_smallbox:nth-child(1){
+    margin-left: 0px;
+}
+.cookie_smallbox img{
+    width: 100%;
+}
+.cookie_line{
+    width: 78px;
+    height: 2px;
+    background: #7f7e7e;
+}
+/* 高端中央厨房结束 */
+/* 农作物生产基地开始 */
+@media (min-width:1024px) and (max-width:1920px){
+    .crop{
+        width: 100%;
+        margin-bottom: 85px
+    }
+    .crop_p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .crop_box{
+        width: 100%;
+        margin: 50px auto 90px;
+    }
+    .crop_box_pic{
+        width: 31.5%;
+        float: left;
+        margin-left: 25px;
+    }
+}
+@media (min-width:786px) and (max-width:1024px){
+    .crop{
+        width: 100%;
+        margin-bottom: 85px
+    }
+    .crop_p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .crop_box{
+        width: 100%;
+        margin: 50px auto 90px;
+    }
+    .crop_box_pic{
+        width: 31.5%;
+        float: left;
+        margin-left: 25px;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .crop{
+        width: 100%;
+        margin-bottom: 35px
+    }
+    .crop_p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .crop_box{
+        width: 100%;
+        margin: 20px auto 40px;
+    }
+    .crop_box_pic{
+        width: 31.5%;
+        float: left;
+        margin-left: 9px;
+    }
+    .crop .team_title h1{
+        font-size: 22px
+    }
+}
+.crop_box_pic:nth-child(1){
+    margin-left: 0px;
+}
+.crop_box_pic img{
+    width: 100%;
+}
+/* 农作物生产基地结束 */

@@ -1,0 +1,189 @@
+/* 新品上市内容开始 */
+@media (min-width:1024px) and (max-width:1920px){
+    .product_content{
+        width: 100%;
+        margin: 60px auto 45px;
+    }
+    .product_smallbox{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .product_title{
+        width: 22.75%;
+        float: left;
+    }
+    .product_img{
+        width:77.25%;
+        float: right;
+        position: relative;
+    }
+    .product_title h1{
+        margin-top: 65px;
+        text-align: center;
+        font-size: 52px;
+        font-weight: 600;
+    }
+    .product_title p{
+        width: 80%;
+        background: #ffd80e;
+        margin-top: 15px;
+        text-align: center;
+        margin:15px auto 0px;
+    }
+    .product_title_pic{
+        margin-top: 100px;
+        text-align: center; 
+    }
+    .product_zhezhao{
+        width: 25%;
+        height: 100%;
+        background: url(../images/prouduct_bg_03.png) no-repeat left;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+    }
+    .product_zhezhao1{
+        width: 25%;
+        height: 100%;
+        background: url(../images/prouduct_bg_03.png) no-repeat right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+    }
+    .product_zhezhao p,.product_zhezhao1 p{
+        width: 24px;
+        margin: 100px auto 0;
+        text-align: center;
+        line-height: 16px;
+    }
+}
+@media (min-width:786px) and (max-width:1024px){
+    .product_content{
+        width: 100%;
+        margin: 60px auto 45px;
+    }
+    .product_smallbox{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .product_title{
+        width: 22.75%;
+        float: left;
+    }
+    .product_img{
+        width:77.25%;
+        float: right;
+        position: relative;
+    }
+    .product_title h1{
+        margin-top: 65px;
+        text-align: center;
+        font-size: 52px;
+        font-weight: 600;
+    }
+    .product_title p{
+        width: 80%;
+        background: #ffd80e;
+        margin-top: 15px;
+        text-align: center;
+        margin:15px auto 0px;
+    }
+    .product_title_pic{
+        margin-top: 100px;
+        text-align: center; 
+    }
+    .product_zhezhao{
+        width: 25%;
+        height: 100%;
+        background: url(../images/prouduct_bg_03.png) no-repeat left;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+    }
+    .product_zhezhao1{
+        width: 25%;
+        height: 100%;
+        background: url(../images/prouduct_bg_03.png) no-repeat right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+    }
+    .product_zhezhao p,.product_zhezhao1 p{
+        width: 24px;
+        margin: 100px auto 0;
+        text-align: center;
+        line-height: 16px;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .product_content{
+        width: 100%;
+        margin: 20px auto 15px;
+    }
+    .product_smallbox{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .product_title{
+        width: 100%;
+        float: none;
+    }
+    .product_img{
+        width:100%;
+        float: none;
+        position: relative;
+    }
+    .product_title h1{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 52px;
+        font-weight: 600;
+    }
+    .product_title p{
+        width: 80%;
+        background: #ffd80e;
+        margin-top: 15px;
+        text-align: center;
+        margin:15px auto 0px;
+    }
+    .product_title_pic{
+        margin-top: 20px;
+        text-align: center; 
+    }
+    .product_zhezhao{
+        width: 40%;
+        height: 100%;
+        background: url(../images/prouduct_bg_03.png) no-repeat top left;
+        /* background: rgba(0,0,0,0.6); */
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+    }
+    .product_zhezhao1{
+        width: 40%;
+        height: 100%;
+        background: url(../images/prouduct_bg_03.png) no-repeat top right;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+    }
+    .product_zhezhao p,.product_zhezhao1 p{
+        width: 100%;
+        margin: 30px 0 0 -20px;
+        text-align: center;
+        line-height: 16px;
+    }
+}
+
+.product_img img{
+    width: 100%;
+}
+/* 新品上市内容结束 */

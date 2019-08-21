@@ -1,0 +1,144 @@
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+.map{
+    margin-bottom: 80px;
+}
+/* 联系我们开始 */
+
+@media (min-width:1024px) and (max-width:1920px){
+    .contact_box{
+        width: 100%;
+        height: 235px;
+        margin: 90px auto 45px;
+    }
+    .contact_log{
+        width: 30%;
+        height: 100%;
+        border-right: 2px solid #efefef;
+        float: left;
+    }
+    .contact_log img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .contact_lx{
+        width: 35%;
+        height: 100%;
+        border-right: 2px solid #efefef;
+        float: left;
+        padding: 50px;
+        color: #7b7b7b;
+    }
+    .online{
+        width: 120px;
+        height: 42px;
+        border: 1px solid #a01e24;
+        text-align: center;
+        color: #7b7b7b;
+        line-height: 42px;
+        margin: 35px auto 0;
+        font-size: 16px;
+    }
+    .erweima{
+        width: 35%;
+        float: left;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width:786px) and (max-width:1024px){
+    .contact_box{
+        width: 100%;
+        height: 235px;
+        margin: 90px auto 45px;
+    }
+    .contact_log{
+        width: 30%;
+        height: 100%;
+        border-right: 2px solid #efefef;
+        float: left;
+    }
+    .contact_log img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .contact_lx{
+        width: 35%;
+        height: 100%;
+        border-right: 2px solid #efefef;
+        float: left;
+        padding: 50px;
+        color: #7b7b7b;
+    }
+    .online{
+        width: 120px;
+        height: 42px;
+        border: 1px solid #a01e24;
+        text-align: center;
+        color: #7b7b7b;
+        line-height: 42px;
+        margin: 35px auto 0;
+        font-size: 16px;
+    }
+    .erweima{
+        width: 35%;
+        float: left;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .contact_box{
+        width: 100%;
+        height: auto;
+        margin: 40px auto 45px;
+    }
+    .contact_log{
+        width: 80%;
+        height: auto;
+        border-right: 0px solid #efefef;
+        float: none;
+        margin: 0 auto;
+    }
+    .contact_log img{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .contact_lx{
+        width: 80%;
+        height: 100%;
+        border-right: 0px solid #efefef;
+        float: none;
+        padding: 10px;
+        margin: 30px auto 0;
+        color: #7b7b7b;
+    }
+    .online{
+        width: 120px;
+        height: 42px;
+        border: 1px solid #a01e24;
+        text-align: center;
+        color: #7b7b7b;
+        line-height: 42px;
+        margin: 35px auto 0;
+        font-size: 16px;
+    }
+    .erweima{
+        width: 80%;
+        float: none;
+        display: flex;
+        justify-content: center;
+        margin: 5px auto 0;
+    }
+}
+.erweima .footer_wx p{
+    color: rgb(35, 24, 21);
+}
+.online:hover{
+    color: #fff;
+    background: #a01e24;
+}
+/* 联系我们结束 */
+
+
+    

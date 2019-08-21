@@ -1,0 +1,107 @@
+/* 金牌套餐开始 */
+
+@media (min-width:1024px) and (max-width:1920px){
+    .content{
+        width: 100%;
+        margin: 58px auto 0px;
+    }
+    .list{
+        width:32%;
+        float: left; 
+        margin-left: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+    .list:nth-child(1),.list:nth-child(4){
+        margin-left: 0px;
+    }
+}
+@media (min-width:786px) and (max-width:1024px){
+    .content{
+        width: 100%;
+        margin: 58px auto 0px;
+    }
+    .list{
+        width:32%;
+        float: left; 
+        margin-left: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+    .list:nth-child(1),.list:nth-child(4){
+        margin-left: 0px;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .content{
+        width: 100%;
+        margin: 40px auto 0px;
+    }
+    .list{
+        width:47%;
+        float: left; 
+        margin-left: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+    .list:nth-child(1),.list:nth-child(3),.list:nth-child(5){
+        margin-left: 0px;
+    }
+    .ui-page {
+        margin: 95px auto 65px;
+        width: 343px;
+        text-align: center;
+        font-size: 14px;
+        color: #666666;
+    }
+}
+.list_pic{
+    width: 100%;
+}
+.list_pic img{
+    width: 100%;
+}
+.list_zhezhao{
+    width: 100%;
+    height: 115px;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: -55px;
+    left: 0px;
+    transition: 0.5s;
+}
+.list_zhezhao p{
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+}
+.more_xq{
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #fff;
+    margin: 0 auto 0;
+}
+.more_xq:hover{
+    color: #a01e24;
+}
+.list:hover .list_zhezhao{
+    bottom: 0px;
+}
+@media (max-width: 786px) and (min-width: 0px){ 
+.banner_list ul li {
+    width: auto;
+    height: 34px;
+    background: #fff;
+    text-align: center;
+    line-height: 34px;
+    margin: 0 5px;
+    padding: 0 5px;
+}
+}
+/* 金牌套餐结束 */

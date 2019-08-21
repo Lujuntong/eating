@@ -1,0 +1,378 @@
+/* banner开始 */
+@media (min-width:1024px) and (max-width:1920px){
+    .banner{
+        width: 100%;
+        height: 494px;
+        margin-top: 100px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .banner_title{
+        color: #fff;
+        text-align: center;
+        margin-top: 150px;
+    }
+    .banner_title1{
+        color: #fff;
+        text-align: center;
+        margin-top: 150px;
+    }
+    .banner_list{
+        width: 100%;
+        margin-top: 55px;
+    }
+    .banner_title h1,.banner_title1 h1{
+        color: #fff;
+        font-size: 39px;
+        text-shadow: -2px -2px 1px rgb(35,24,21);
+        font-weight: 600;
+    
+    }
+    .banner_title p{
+        text-shadow: -2px -2px 1px rgb(35,24,21);
+        font-weight: 600;
+    }
+}
+@media (min-width:786px) and (max-width:1024px){
+    .banner{
+        width: 100%;
+        height: 494px;
+        margin-top: 100px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .banner_title{
+        color: #fff;
+        text-align: center;
+        margin-top: 150px;
+    }
+    .banner_title1{
+        color: #fff;
+        text-align: center;
+        margin-top: 150px;
+    }
+    .banner_list{
+        width: 100%;
+        margin-top: 55px;
+    }
+    .banner_title h1,.banner_title1 h1{
+        color: #fff;
+        font-size: 39px;
+        text-shadow: -2px -2px 1px rgb(35,24,21);
+        font-weight: 600;
+    
+    }
+    .banner_title p{
+        text-shadow: -2px -2px 1px rgb(35,24,21);
+        font-weight: 600;
+    }
+}
+@media (min-width:0px) and (max-width:786px){
+    .banner{
+        width: 100%;
+        height: 235px;
+        margin-top: 100px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 200%;
+    }
+    .banner_title{
+        color: #fff;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .banner .banner_title1{
+        color: #fff;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .banner_list{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .banner_title h1,.banner_title1 h1{
+        color: #fff;
+        font-size: 34px;
+        text-shadow: -2px -2px 1px rgb(35,24,21);
+        font-weight: 600;
+    
+    }
+    .banner_title p{
+        text-shadow: -2px -2px 1px rgb(35,24,21);
+        font-weight: 600;
+    }
+}
+.banner_list ul{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:1920px) and (min-width:1024px){
+    .banner_list ul li {
+        width: 145px;
+        height: 53px;
+        background: #fff;
+        text-align: center;
+        line-height: 53px;
+        margin: 0 10px;
+    }
+    .banner_list ul li a{
+        font-size: 16px;
+        color: #231815;
+    }
+}
+@media (max-width:1024px) and (min-width:786px){
+    .banner_list ul li {
+        width: 145px;
+        height: 53px;
+        background: #fff;
+        text-align: center;
+        line-height: 53px;
+        margin: 0 5px;
+    }
+    .banner_list ul li a{
+        font-size: 14px;
+        color: #231815;
+    }
+}
+@media (max-width:786px) and (min-width:0px){
+    .banner_list ul li{
+        width: 145px;
+        height: 34px;
+        background: #fff;
+        text-align: center;
+        line-height: 34px;
+        margin: 0 5px;
+    }
+    .banner_list ul li a{
+        font-size: 12px;
+        color: #231815;
+    }
+}
+
+.banner_list ul li a:hover{
+    color: #fff;
+}
+.banner_list ul li:hover{
+    background: #a01e24;
+}
+.banner_list ul li .banner_list_a_active{
+    color: #fff;
+}
+.banner_list .banner_list_li_active{
+    background: #a01e24;
+}
+/* banner结束 */
+/* 公司简介开始 */
+@media (max-width:1920px) and (min-width:1024px){
+    .company{
+        width: 100%;
+        margin: 90px auto 70px;
+    }
+    .company_left{
+        width: 50%;
+        float: left;
+    }
+    .company_right{
+        width: 48%;
+        float: right;
+        position: relative;
+    }
+    .company_right_pic{
+        width: 80%;
+        position: absolute;
+        bottom: 70px;
+        right: 80px;
+    }
+    .company_right_pic img{
+        width: 100%;
+    }
+    .company_txt{
+        margin: 60px auto 70px;
+    }
+}
+@media (max-width:1024px) and (min-width:786px){
+    .company{
+        width: 100%;
+        margin: 90px auto 70px;
+    }
+    .company_left{
+        width: 50%;
+        float: left;
+    }
+    .company_right{
+        width: 48%;
+        float: right;
+        position: relative;
+    }
+    .company_right_pic{
+        width: 80%;
+        position: absolute;
+        bottom: 70px;
+        right: 80px;
+    }
+    .company_right_pic img{
+        width: 100%;
+    }
+    .company_txt{
+        margin: 60px auto 70px;
+    }
+}
+@media (max-width:786px) and (min-width:0px){
+    .company{
+        width: 100%;
+        margin: 30px auto 70px;
+    }
+    .company_left{
+        width: 100%;
+        float: none;
+    }
+    .company_right{
+        width: 100%;
+        float: none;
+        position: relative;
+    }
+    .company_right_pic{
+        width: 80%;
+        position: absolute;
+        bottom: 50px;
+        right: 60px;
+    }
+    .company_right_pic img{
+        width: 100%;
+    }
+    .company_txt {
+        margin: 30px auto 20px;
+    }
+}
+.company_right img{
+    width: 100%;
+}
+.company_title h1{
+    font-size: 29px;
+    color: #4b4b4a;
+    font-weight: 600;
+}
+.company_line{
+    width: 110px;
+    height: 4px;
+    background: #a01e24;
+}
+.company_txt p{
+    line-height: 24px;
+    text-indent: 2em;
+}
+/* 公司简介结束 */
+/* 企业文化开始 */
+@media (max-width:1920px) and (min-width:1024px){
+    .company1{
+        margin-bottom: 149px;
+    }
+    .company1_box{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .company1_smallbox{
+        width: 23.5%;
+        height: 200px;
+        margin-left: 20px;
+        float: left;
+        background: #a01e24;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .company1_smallbox h1{
+        width: 100%;
+        height: 24px;
+        margin-top: 20px;
+        background: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+    }
+    .company1_smallbox p{
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .company1_smallbox:nth-child(1){
+        margin-left: 0px;
+    }
+}
+@media (max-width:1024px) and (min-width:786px){
+    .company1{
+        margin-bottom: 149px;
+    }
+    .company1_box{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .company1_smallbox{
+        width: 23.5%;
+        height: 200px;
+        margin-left: 20px;
+        float: left;
+        background: #a01e24;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .company1_smallbox h1{
+        width: 100%;
+        height: 24px;
+        margin-top: 20px;
+        background: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+    }
+    .company1_smallbox p{
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .company1_smallbox:nth-child(1){
+        margin-left: 0px;
+    }
+}
+@media (max-width:786px) and (min-width:0px){
+    .company1{
+        margin-bottom: 80px;
+    }
+    .company1_box{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .company1_smallbox{
+        width: 47%;
+        height: 150px;
+        margin-left: 20px;
+        float: left;
+        background: #a01e24;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .company1_smallbox h1{
+        width: 100%;
+        height: 24px;
+        margin-top: 20px;
+        background: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+    }
+    .company1_smallbox p{
+        color: #fff;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .company1_smallbox:nth-child(1),.company1_smallbox:nth-child(3){
+        margin-left: 0px;
+    }
+}
+
+/* 企业文化结束 */
